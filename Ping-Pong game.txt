@@ -1,0 +1,3 @@
+Ping-pong game
+
+Initially, LED15 is ON. User 1 uses btnLto start the game. Pressing btnL("serve") turns ONthe LEDs  in  the  order  LED15->  LED0.  User  2  must  press btnRwhen  LED0is ON.  If  LED0  is “caught”, then the LEDsequence is reversed, i.e.the LEDs will turn on in the LED0 -> LED15order. User 1 must "catch" LED15and so on.When one of the users "misses" the ball, then all LEDslight upfor one second andthe score isincremented, LED15lights up again, and the circuit is waiting for a new "serve".The two most significant digits show the score foruser 1, the next two digits the scorefor user 2. After a ball exchange, if the users do not lose the ball, the speedof the playincreasesgradually.
